@@ -5,7 +5,7 @@ export const CHANGE_OPERATION = "CHANGE_OPERATION";
 export const CLEAR_DISPLAY = 'CLEAR_DISPLAY';
 export const CLEAR_MEMORY = 'CLEAR_MEMORY';
 export const CURRENT_MEMORY= 'CURRENT_MEMORY'
-export const NEW_MEMORY = 'NEW_MEMORY';
+export const MEMORY_ADD= 'MEMORY_ADD';
 export const addOne = () => {
     return({type:ADD_ONE});
 }
@@ -22,8 +22,8 @@ export const clearDisplay = () => {
     return ({type:CLEAR_DISPLAY})
 }
 
-export const newMemory = () => {
-    return ({type:NEW_MEMORY})
+export const memoryAdd = () => {
+    return ({type: MEMORY_ADD})
 }
 
 export const currentMemory = () => {
@@ -31,6 +31,6 @@ export const currentMemory = () => {
 }
 
 export const clearMemory = () => {
-    return ({type:CLEAR_MEMORY})
+    return ({type: CLEAR_MEMORY})
 }
 
